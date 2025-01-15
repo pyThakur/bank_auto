@@ -52,16 +52,16 @@ _ Once logged in, you can:_
  - **name (TEXT):** Account holder's name.
  - **password (TEXT):** Account holder's password.
  - **email (TEXT):** Account holder's email address.
- -** mob (TEXT):** Account holder's mobile number.
- -** bal (FLOAT):** Account balance.
- -** type (TEXT):** Account type (Saving or Current).
- -** opendate (TEXT):** Date the account was opened.<br/>
+ - **mob (TEXT):** Account holder's mobile number.
+ - **bal (FLOAT):** Account balance.
+ - **type (TEXT):** Account type (Saving or Current).
+ - **opendate (TEXT):** Date the account was opened.<br/>
 #  **txn_history table:**<br/>
  - **acn (INTEGER):** Account number.
  - **txn_amt (FLOAT):** Transaction amount.
- -** txn_type (TEXT):** Transaction type (Credit or Debit).
+ - **txn_type (TEXT):** Transaction type (Credit or Debit).
  - **txn_date (TEXT):** Date of the transaction.
- -** update_bal (FLOAT): **Updated account balance after the transaction.
+ - **update_bal (FLOAT):** Updated account balance after the transaction.
 
 # Contact
 For any questions or support, please reach out to the project owner at **purushotamt858@gmail.com.**
