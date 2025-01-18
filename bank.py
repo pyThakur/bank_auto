@@ -531,12 +531,12 @@ def loginaccount_screen():
     if(os.path.exists(f"{acn}.png")):
         img=Image.open(f"{acn}.png").resize((140,150))
         imgtk=ImageTk.PhotoImage(img,master=win)
-    else:
-        img=Image.open("default.jpg").resize((140,150))
-        imgtk=ImageTk.PhotoImage(img,master=win)
+    # else:
+    #     img=Image.open("default.jpg").resize((140,150))
+    #     imgtk=ImageTk.PhotoImage(img,master=win)
     
-    lbl_img=Label(frm,image=imgtk)
-    lbl_img.place(relx=.01,rely=.05)
+    # lbl_img=Label(frm,image=imgtk)
+    # lbl_img.place(relx=.01,rely=.05)
     
     btn_propic=Button(frm,command=updatepic,text="update pic",bd=5,bg='powderblue')
     btn_propic.place(relx=.15,rely=.25)
